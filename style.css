@@ -16,6 +16,19 @@ body
  height:70px;
  line-height:70px;
 }
+img {
+	border-radius: 50%;
+	filter: grayscale(100%);
+	width: 150px;
+	border: solid 2px #29ABE2;
+  }
+
+figure{
+  width: 100%;
+}
+.image_container{
+  	display:inline-block
+  }
 #header li
 {
  display:inline-block;

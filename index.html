@@ -3,36 +3,47 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript">
-function scrollto(div)
-{
- $('html,body').animate(
- {
-  scrollTop: $("#"+div).offset().top
- },'slow');
-}
 </script>
 </head>
 <body>
 
 <div id="header">
- <li id="site_name">CS615 Fitness with Friends</li>
- <li onclick="scrollto('home');">Team</li>
- <li onclick="scrollto('about');">Problem Statement</li>
- <li onclick="scrollto('contact');">Contact</li>
+ <li id="site_name">CS615 FITNESS WITH FRIENDS</li>
+ <li href="#team">Team</li>
+ <li href="#problem">Problem Statement</li>
+ <li href="#more">More</li>
 </div>
 
-<div id="home">
+<div id="team">
  <h1>Team Fitness App</p></h1>
  <p>Set up your team consisting of three to five people. Find a name for your group. You can use the Project Groups Sign-up Sheet to find group members. </p>
 </div>
 
-<div id="about">
+<div id="problem">
 <h1>Problem Statement</p></h1>
  <p>Find a problem to solve and write up a brief problem statement. Take the user's point of view and specify the user's goals, actions, and any potential obstacles. You don't need a deeper analysis at this point, that's the goal of the second step of the project. </p>
 </div>
 
-<div id="contact">
-<h1>Group: Pablo, Loraine, Olga, Isha and Dharmin</h1>
+<div id="more">
+<h1>More</h1>
+
+ <p>Our Team members</p>
+ <figure> <!--lang-html-->
+ <div class='image_container'><img src=https://unsplash.com/photos/gKXKBY-C-Dk/><br>
+  <span>Pablo</span></div>
+ <div class='image_container'><img src=https://unsplash.com/photos/N04FIfHhv_k /><br>
+  <span>Loraine</span></div>
+  <div class='image_container'><img src=https://unsplash.com/photos/OzAeZPNsLXk /><br>
+  <span>Olga<span></div>
+ <div class='image_container'> <img src=https://unsplash.com/photos/pOUA8Xay514 /><br>
+  <span>Isha</span></div>
+  <div class='image_container'><img src=https://unsplash.com/photos/o_QTeyGVWjQ/><br>
+  <span>Dharmin</span></div>
+</figure>
+<br>
+<div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
 </div>
 
 </body>
