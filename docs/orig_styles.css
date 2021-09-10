@@ -1,0 +1,76 @@
+body
+{
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family: "Helvetica Neue",Helvetica,Arial,Sans-Serif;
+ background-color:white;
+}
+#header
+{
+ width:100%;
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ height:70px;
+ line-height:70px;
+}
+#header li
+{
+ display:inline-block;
+ margin-right:25px;
+ font-size:17px;
+ color:black;
+ font-weight:bold;
+ cursor:pointer;
+}
+#header #site_name
+{
+ float:left;
+ width:680px;
+ font-size:35px;
+ margin-left:10px;
+}
+#team,#problem,#more
+{
+ margin-top:90px;
+ width:90%;
+ margin-left:5%;
+ padding:30px;
+ box-sizing:border-box;
+ background-color:indianred;
+ border-radius:10px;
+ color:white;
+ margin-bottom:10px;
+}
+#team h1
+{
+ font-size:40px;
+}
+#team p
+{
+ font-size:20px;
+}
+#problem p
+{
+ font-size:20px;
+}
+img 
+{
+ margin: 15px;
+ border-radius: 50%;
+ filter: grayscale(100%);
+ object-fit: cover;
+ width: 150px;
+ height: 150px;
+ border: solid 2px #29ABE2;
+}
+figure
+{
+ width: 100%;
+}
+.image_container
+{
+ display:inline-block
+}
