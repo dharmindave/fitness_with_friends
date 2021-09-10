@@ -16,19 +16,6 @@ body
  height:70px;
  line-height:70px;
 }
-img {
-	border-radius: 50%;
-	filter: grayscale(100%);
-	width: 150px;
-	border: solid 2px #29ABE2;
-  }
-
-figure{
-  width: 100%;
-}
-.image_container{
-  	display:inline-block
-  }
 #header li
 {
  display:inline-block;
@@ -40,32 +27,50 @@ figure{
 }
 #header #site_name
 {
- text-align:left;
+ float:left;
  width:680px;
  font-size:35px;
- margin-left:20px;
+ margin-left:10px;
 }
-#home,#about,#contact
+#team,#problem,#more
 {
- margin-top:100px;
+ margin-top:90px;
  width:90%;
- height:400px;
  margin-left:5%;
- padding:50px;
+ padding:30px;
  box-sizing:border-box;
  background-color:indianred;
  border-radius:10px;
  color:white;
+ margin-bottom:10px;
 }
-#home h1
+#team h1
 {
  font-size:40px;
 }
-#home p
+#team p
 {
  font-size:20px;
 }
-#about p
+#problem p
 {
  font-size:20px;
+}
+img 
+{
+ margin: 15px;
+ border-radius: 50%;
+ filter: grayscale(100%);
+ object-fit: cover;
+ width: 150px;
+ height: 150px;
+ border: solid 2px #29ABE2;
+}
+figure
+{
+ width: 100%;
+}
+.image_container
+{
+ display:inline-block
 }
