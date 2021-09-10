@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="website_style.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+function scrollto(div)
+{
+ $('html,body').animate(
+ {
+  scrollTop: $("#"+div).offset().top
+ },'slow');
+}
+</script>
+</head>
+<body>
+
+<div id="header">
+ <li id="site_name">TalkersCode.com</li>
+ <li onclick="scrollto('home');">Team</li>
+ <li onclick="scrollto('about');">Problem Statement</li>
+ <li onclick="scrollto('contact');">Contact</li>
+</div>
+
+<div id="home">
+ <h1>Team Fitness App</p></h1>
+ <p>Set up your team consisting of three to five people. Find a name for your group. You can use the Project Groups Sign-up Sheet to find group members. </p>
+</div>
+
+<div id="about">
+<h1>Problem Statement</p></h1>
+ <p>Find a problem to solve and write up a brief problem statement. Take the user's point of view and specify the user's goals, actions, and any potential obstacles. You don't need a deeper analysis at this point, that's the goal of the second step of the project. </p>
+</div>
+
+<div id="contact">
+<h1>Group: Pablo, Loraine, Olga, Isha and Dharmin</h1>
+<input type="text" placeholder="Name">
+<textarea placeholder="Message"></textarea>
+<input type="submit" value="SEND">
+</div>
+
+</body>
+</html>
