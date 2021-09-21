@@ -111,11 +111,14 @@ p {
   color: #000;
   margin: -24px 0 0 -55.5px;
 }
+.logoholder {
+  width: 40%;
+}
 
 header {
   width: 100%;
   display: block;
-  padding: 30px 0 0 0;
+  padding: 10px 0 0 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -188,7 +191,7 @@ header .sep {
 section.about {
   width: 100%;
   display: block;
-  padding: 186px 0 80px 0;
+  padding: 130px 0 20px 0;
 }
 section.team figure
 {
@@ -280,7 +283,7 @@ section.about article {
 section.services {
   width: 100%;
   display: block;
-  padding: 80px 0 60px 0;
+  padding: 20px 0 20px 0;
 }
 section.services .service {
   width: 100%;
@@ -293,7 +296,7 @@ section.services .service .top {
   display: block;
   border-top: 1px solid #e4e2e2;
   border-bottom: 1px solid #e4e2e2;
-  padding: 20px 0 18px 0;
+  padding: 10px 0 18px 0;
   margin: 0 0 30px 0;
 }
 section.services .service .top i {
