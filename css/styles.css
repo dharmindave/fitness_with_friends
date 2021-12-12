@@ -1,0 +1,58 @@
+
+.content{
+    position: absolute;
+    width: 360px;
+    height: 640px;
+    background:#ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+
+.bname{
+    text-align: center;
+    font-size: 32px;
+    width:129px;
+    height:195px;
+    margin-top: 86px;
+    margin-left: 108px;
+}
+
+#login-form{
+    text-align: center;
+}
+
+#username{
+    border-radius: 12px;
+}
+
+#password{
+    border-radius: 12px;
+}
+
+
+input[type=text], input[type=text], input[type=text],  input[type=password] {
+    width: 70%;
+    padding: 5px 15px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+button{
+    border-color: #04AA6D;
+    color: green;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 82px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover{
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  
